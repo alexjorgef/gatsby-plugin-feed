@@ -6,7 +6,6 @@ jobs:
   release:
     name: Release to NPM
     runs-on: ubuntu-latest
-    needs: publish
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3.1.1
